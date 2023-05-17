@@ -40,4 +40,5 @@ If you don't want to code in .NET and want to code in other language, you can le
 Use the [Azure OpenAI Studio](https://oai.azure.com/) to access the [playground](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=programming-language-studio&tabs=command-line) to test the model and generate code for your use cases. Leverage the following guides for quick starts:
 - [C#](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=programming-language-csharp&tabs=command-line)
 - [Python](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=programming-language-python&tabs=command-line)
+- [Python samples](https://github.com/Azure-Samples/openai)
 - [REST](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=rest-api&tabs=command-line)
