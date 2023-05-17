@@ -29,3 +29,15 @@
 7. Go to the App service deployment center and hit `Sync` to deploy your changes. The web app will be publicly accessible so be mindful about any securiy concerns.
 8. (Optional) If you want your changes to be deployed automatically with a CI/CD workflow on GitHub Actions, go to the App service deployment center, disconnect the existing source and configure a new one using GitHub and pointing to your repo.
 
+## Notes
+If you don't want to code in .NET and want to code in other language, you can leverage the following quick starts:
+- [Quickstart: Deploy an ASP.NET web app](https://learn.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?pivots=development-environment-vscode&tabs=net70)
+- [Create a Node.js web app in Azure](https://learn.microsoft.com/en-us/azure/app-service/quickstart-nodejs?pivots=development-environment-vscode&tabs=linux)
+- [Create a PHP web app in Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-php?pivots=platform-linux&tabs=cli)
+- [Quickstart: Create a Java app on Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-java?pivots=platform-linux-development-environment-maven&tabs=javase)
+- [Quickstart: Deploy a Python (Django or Flask) web app to Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cazure-cli%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli)
+
+Use the [Azure OpenAI Studio](https://oai.azure.com/) to access the [playground](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=programming-language-studio&tabs=command-line) to test the model and generate code for your use cases. Leverage the following guides for quick starts:
+- [C#](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=programming-language-csharp&tabs=command-line)
+- [Python](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=programming-language-python&tabs=command-line)
+- [REST](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=rest-api&tabs=command-line)
