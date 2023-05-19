@@ -1,4 +1,4 @@
-# Hackbox at BiT Hackathon 🚀
+# Hackbox at BIT Hackathon 🚀
 
 
 Public repo with Solution Accelerators to support the Hackathon
