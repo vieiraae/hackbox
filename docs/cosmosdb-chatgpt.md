@@ -12,7 +12,7 @@
 ## Instructions to deploy the accelerator
 1. Fork your own copy of the https://github.com/vieiraae/cosmosdb-chatgpt repo (copy the main branch only)
 2. Replace the `<your account or org name>` in the following url and open the URL in your browser: `https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2F<your account or org name>%2Fcosmosdb-chatgpt%2Fmain%2Fazuredeploy.json`
-3. Ensure that the Azure subscription selected is the one used for this Hackathon. If you don't see the subscription, please contact one Microsoft mentor
+3. Ensure that the Azure subscription name ItLabs is selected. If you don't see the subscription, please contact one Microsoft mentor
 4. Select the resource group used for your team. If you don't see the resource group, please contact one Microsoft mentor
 5. Set the Open Ai Resource Group and the Open Ai Resource Name with the values provided for the Hackathon. If you don't know those values, please contact one Microsoft mentor
 6. Change the App Git Repository to point to YOUR repo - the App service is configure to deploy automatically files from the repo
