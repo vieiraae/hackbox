@@ -1,4 +1,6 @@
-# Hackbox 🚀
+# Hackbox at Bit Hackathon 🚀
+
+
 Public repo with Solution Accelerators to support the Hackathon
 
 ## Accelerators backed by Microsoft mentors on-site 
