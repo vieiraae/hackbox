@@ -9,14 +9,14 @@ Public repo with Solution Accelerators to support the Hackathon
 |--------------|-----------|------------|------------|------------|
 | [OpenAI chatGPT](https://github.com/Azure-Samples/cosmosdb-chatgpt) | This sample application combines Azure Cosmos DB with OpenAI ChatGPT with a Blazor Server front-end for an intelligent chat bot application that shows off how you can build a simple chat application with OpenAI ChatGPT and Azure Cosmos DB | [Alexandre Vieira](https://github.com/vieiraae) | Generative AI | [🔗](./docs/cosmosdb-chatgpt.md) |
 | [Customer Service Conversational Insights](https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services) | Solution accelerator built on top of Azure Cognitive Search, Bot Framework, Azure Speech Services and Azure OpenAI that allows to quickly deploy an integrated platform and immediately start extracting insights from customer conversations | [André Matos]() | Generative AI; New Ways of Working | [🔗]() |
-| [OpenAI Embeddings QnA](https://github.com/Azure-Samples/azure-open-ai-embeddings-qna) | Sample that uses Azure OpenAI Service for creating embeddings vectors from documents. For answering the question of a user, it retrieves the most relevant document and then uses GPT-3 to extract the matching answer for the question. | [Fábio Lopes]() | Knowledge Behind Data; Generative AI | [🔗]() |
+| [OpenAI Embeddings QnA](https://github.com/Azure-Samples/azure-open-ai-embeddings-qna) | Sample that uses Azure OpenAI Service for creating embeddings vectors from documents. For answering the question of a user, it retrieves the most relevant document and then uses GPT-3 to extract the matching answer for the question. | [Fábio Lopes]() | Knowledge Behind Data; Generative AI | [🔗](docs/openai-qna.md) |
 | [Retail Recommender](https://github.com/microsoft/Azure-Synapse-Retail-Recommender-Solution-Accelerator) | This accelerator was built to provide developers with all of the resources needed to quickly build an Retail Recommender Solution based on Azure. | [Alexandre Vieira](https://github.com/vieiraae) | Gamification; Knowledge Behind Data | [🔗]() |
 | [eShop on Containers](https://github.com/dotnet-architecture/eShopOnContainers) | Sample .NET Core reference application, powered by Microsoft, based on a simplified microservices architecture and Docker containers. | [André Matos]() | New online frontiers | [🔗]() |
-| [Business Process Automation](https://github.com/Azure/business-process-automation) | This accelerator provides a no code Studio for users to quickly build complex, multi-stage AI pipelines across multiple Azure AI and ML Services. | [Fábio Lopes]() | Future-Proof Supply Chains | [🔗]() |
+
 
 
 ## Other solution accelerators
-
+- [Business Process Automation](https://github.com/Azure/business-process-automation)
 - [Build a smart, frictionless checkout prototype using Azure Custom Vision](https://github.com/microsoft/solution-accelerator-containerized-store)
 - [Knowledge Mining Solution Accelerator](https://learn.microsoft.com/en-us/samples/azure-samples/azure-search-knowledge-mining/azure-search-knowledge-mining/)
 - [Non-fungible Token Solution Accelerator](https://github.com/microsoft/Azure-Non-Fungible-Token-Solution-Accelerator)
