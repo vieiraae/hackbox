@@ -20,10 +20,6 @@
  - The URL for your application will be present in the essentials pane, in the "Default domain" field. 
  - The first time you open the URL you can expect it to take a few seconds to load.
 
-## Instructions to customize and hack the accelerator
-1. Step1
-
-
 ## Notes
 
 Use the [Azure OpenAI Studio](https://oai.azure.com/) to access the [playground](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/chatgpt-quickstart?pivots=programming-language-studio&tabs=command-line) to test the model and generate code for your use cases. Leverage the following guides for quick starts:
