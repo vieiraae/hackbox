@@ -1,9 +1,7 @@
-# Hackbox at [BIT Hackathon](https://bithackathon.mc.pt/) 🚀
+# Hackbox 🚀
 
 
 Public repo with Solution Accelerators to support the Hackathon
-
-## Accelerators backed by Microsoft mentors on-site 
 
 | Name         | Description      | Mentor     | Possible domains | Instructions |
 |--------------|-----------|------------|------------|------------|
