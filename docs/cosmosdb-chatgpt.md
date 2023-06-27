@@ -18,12 +18,14 @@
 6. After the deployment finishes (should take around 3 minutes) go to your teams resource group and open the "App Service" resource.
 7. Click on the "Default domain" property to open the app that was just deployed and start playing with it.
 
-## Quickstart to customize and hack
+## Quickstart to customize and run locally
 1. Open a windows or linux terminal and execute the commmand: `git clone https://github.com/vieiraae/cosmosdb-chatgpt`
 2. `cd cosmosdb-chatgpt`
 3. `dotnet restore`
 4. `code .` to open VS Code and start hacking. This sample uses [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) 
-5. `dotnet run`
+5. Open the `appsettings.json` file and set the Endpoint and Key values for the CosmosDb and OpenAI service. Also set the proper deployment name.
+6. `dotnet run`
+
 
 ## Instructions to deploy the accelerator with your own repo
 1. Fork your own copy of the https://github.com/vieiraae/cosmosdb-chatgpt repo (copy the main branch only)
