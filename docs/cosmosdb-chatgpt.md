@@ -9,18 +9,34 @@
 - [.NET SDK](https://dotnet.microsoft.com/en-us/download) installed
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) installed 
 
-## Instructions to deploy the accelerator
+## Quickstart to deploy
+1. Open the URL in your browser: [`https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fvieiraae%2Fcosmosdb-chatgpt%2Fmain%2Fazuredeploy.json`](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fvieiraae%2Fcosmosdb-chatgpt%2Fmain%2Fazuredeploy.json)
+2. Ensure that the Azure subscription used for the Hackathon is selected. If you don't see the subscription, please reach out
+3. Select or create a unique resource group used for you or your team
+4. Set the Open Ai Resource Group and the Open Ai Resource Name with the values provided for the Hackathon. If you don't know those values, please reach out
+5. Keep the other defaults and click `Review + create` and then hit `Create` to start the deployment
+6. After the deployment finishes (should take around 3 minutes) go to your teams resource group and open the "App Service" resource.
+7. Click on the "Default domain" property to open the app that was just deployed and start playing with it.
+
+## Quickstart to customize and hack
+1. Open a windows or linux terminal and execute the commmand: `git clone https://github.com/vieiraae/cosmosdb-chatgpt`
+2. `cd cosmosdb-chatgpt`
+3. `dotnet restore`
+4. `code .` to open VS Code and start hacking. This sample uses [Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor) 
+5. `dotnet run`
+
+## Instructions to deploy the accelerator with your own repo
 1. Fork your own copy of the https://github.com/vieiraae/cosmosdb-chatgpt repo (copy the main branch only)
 2. Replace the `<your account or org name>` in the following url and open the URL in your browser: `https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2F<your account or org name>%2Fcosmosdb-chatgpt%2Fmain%2Fazuredeploy.json`
-3. Ensure that the Azure subscription name ItLabs is selected. If you don't see the subscription, please contact one Microsoft mentor
-4. Select the resource group used for your team. If you don't see the resource group, please contact one Microsoft mentor
-5. Set the Open Ai Resource Group and the Open Ai Resource Name with the values provided for the Hackathon. If you don't know those values, please contact one Microsoft mentor
+3. Ensure that the Azure subscription used for the Hackathon is selected. If you don't see the subscription, please reach out
+4. Select or create a unique resource group used for you or your team
+5. Set the Open Ai Resource Group and the Open Ai Resource Name with the values provided for the Hackathon. If you don't know those values, please reach out
 6. Change the App Git Repository to point to YOUR repo - the App service is configure to deploy automatically files from the repo
 7. Keep the other defaults and click `Review + create` and then hit `Create` to start the deployment
 8. After the deployment finishes (should take around 3 minutes) go to your teams resource group and open the "App Service" resource.
 9. Click on the "Default domain" property to open the app that was just deployed and start playing with it.
 
-## Instructions to customize and hack the accelerator
+## Instructions to customize and hack the accelerator with your own repo
 1. Open a windows or linux terminal and execute the commmand: `git clone https://github.com/<your account or org name>/cosmosdb-chatgpt`
 2. `cd cosmosdb-chatgpt`
 3. `dotnet restore`
